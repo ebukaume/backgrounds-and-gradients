@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+.top {
+  width: 100%;
+  height: 536px;
+  /* margin-top: -462px; */
+  background: url("../images/main-background.png") top right no-repeat;
+  /* background-size: 1440px 1315px; */
+  position: absolute;
+}
+nav {
+  position: relative;
+  top: 20px;
+  left: 12%;
+  width: 980px;
+  height: 36px;
+  background-color: #707070;
+  border-radius: 4px;
+  background: -webkit-gradient(
+      linear,
+      0 0,
+      0 100%,
+      from(rgba(0, 0, 0, 0.2)),
+      color-stop(0.05, rgba(0, 0, 0, 0)),
+      color-stop(0.97, rgba(0, 0, 0, 0)),
+      to(rgba(0, 0, 0, 0.45))
+    ),
+    -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))),
+    -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.342);
+  display: flex;
+}
+.nav-item {
+  background: transparent;
+  border: none;
+  border-right: 1px solid rgba(0, 0, 0, 0.336);
+  border-left: 1px solid rgba(221, 207, 207, 0.336);
+  font-size: 15px;
+  color: rgb(236, 233, 233);
+  text-shadow: 0px 1px black;
+  cursor: pointer;
+  width: 104px;
+
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  font-size: 13px;
+  line-height: 18px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana,
+    sans-serif;
+}
+.nav-item:visited {
+  outline: none;
+}
+.nav-item:hover {
+  color: #ccc;
+}
+div.nav-item {
+  width: auto;
+}
+header {
+  width: 70%;
+  height: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+header > h1 {
+  margin-top: 115px;
+}
+header > h2 {
+  margin-top: -15px;
+}
+header > h1,
+header > h2 {
+  height: 85px;
+  overflow: hidden;
+}
+div.call-to-action {
+  height: 30px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+div.call-to-action a {
+  text-decoration: none;
+  color: white;
+  font-weight: 200;
+  font-size: 25px;
+}
+div.call-to-action:hover {
+  text-decoration: underline;
+}
+main {
+  height: 200px;
+  position: relative;
+  top: 537px;
+  display: flex;
+}
+
+main > div {
+  width: 23.8%;
+  margin: 1px;
+}
+
+footer {
+  background: #666;
+  position: relative;
+  top: 523px;
+  width: 75%;
+  height: 90px;
+  margin: 0 auto;
+}
