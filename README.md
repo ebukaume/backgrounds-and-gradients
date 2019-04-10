@@ -27,7 +27,7 @@ $ cd backgrounds-and-gradients
 
 ## Deployment
 
-The demo page can be found [HERE](https://raw.githack.com/ebukaume/backgrounds-and-gradients/dev/index.html)
+The demo page can be found [HERE](https://ebukaume.github.io/backgrounds-and-gradients/)
 
 ## Author
 
